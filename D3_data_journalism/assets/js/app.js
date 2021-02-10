@@ -152,7 +152,7 @@ var povertyLabel = labelsGroup.append("text")
 .attr("x", 0)
 .attr("y", 20)
 .classed("active", true)
-.text("Poverty rate");
+.text("In Poverty (%)");
 
 // append y axis
 chartGroup.append("text")
@@ -161,7 +161,7 @@ chartGroup.append("text")
 .attr("x", 0 - (height / 2))
 .attr("dy", "1em")
 .classed("active", true)
-.text("Healthcrae Access");
+.text("Lacks Healthcare (%)");
 
 // updateToolTip function above csv import
 var transCirclesGroup = updateToolTip(transCirclesGroup);
